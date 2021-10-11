@@ -14,7 +14,7 @@ var score=0;
 var gameOver, restart;
 
 function preload(){
-  kangaroo_running =   loadAnimation("kangaroo1.png","kangaroo2.pn","kangaroo3.png");
+  kangaroo_running =   loadAnimation("kangaroo1.png","kangaroo2.png","kangaroo3.png");
   kangaroo_collided = loadAnimation("kangaroo1.png");
   jungleImage = loadImage("bg.png");
   shrub1 = loadImage("shrub1.png");
